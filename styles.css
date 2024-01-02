@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(114, 12, 114);
+}
+.container{
+    position: relative;
+    background-color: orange;
+    width: 800px;
+    height: 30px;
+    border: 1px solid orange;
+    margin-left: 600px;
+    margin-top: -50px;
+    padding: 20px; /* Added padding to the container for better readability */
+}
+.btn{
+    font-size: 30px;
+  font-style: italic;
+  color: black;
+  width: 1000px;
+  size: 100%;
+  margin-left: 30px;
+}
+.btl{
+  font-size: 30px;
+font-style: italic;
+color: #fff;
+width: 1000px;
+size: 100%;
+margin-left: 30px;
+}
+h1{
+    color: #fff;
+    font-style: italic;
+}
+h2{
+    color: #fff;
+    font-style: italic;
+}
+.topLinks{
+    margin-left: 100px;
+   margin-top: -20px;
+}
+
+@keyframes slide_animation {
+    0% {left: -2400px;}
+    10% {left: -1200px;}
+    20% {left: 0px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: -1200px;}
+    100% {left: -2400px;}
+}
+.img-container {
+ 
+    display: flex;
+}
+.slide-images {
+    width: 300px;
+    height: 300px;
+    margin-right: 0 0 0 -2400px;
+    position: relative; /* Set the position to relative */
+    animation-name: slide_animation;
+    animation-duration: 33s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+.Me{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.chartJavaScript {
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  
+  .JavaScript {
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
+  
+  .chartHTML{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  .HTML{
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
+
+  .chartCSS{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  .CSS{
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
+
+  .chartJava{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  .Java{
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
+
+  .chartNode{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  .Node{
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
+
+  .chartVue{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  .Vue{
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
+
+  .chartReact{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+  }
+  .React{
+    height: 100%;
+    background-color: orange;
+    border: 1px solid #fff;
+  }
